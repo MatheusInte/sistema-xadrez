@@ -23,7 +23,7 @@ public class PartidaDeXadrez {
     }
 
     private void setupInicial() {
-        tabuleiro.lugardapeca(new Torre(tabuleiro, Cor.WHITE), new Posicao(2,1));
+        tabuleiro.lugardapeca(new Torre(tabuleiro, Cor.WHITE), new Posicao(0,2);
         tabuleiro.lugardapeca(new Rei(tabuleiro, Cor.BLACK), new Posicao(0,4));
     }
 }
